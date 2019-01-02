@@ -1,0 +1,17 @@
+{
+  "name": "demo02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist",
+    "build:arrow": "babel src -d dist --plugins=@babel/plugin-transform-arrow-functions",
+    "build:env":"babel src -d dist --presets=@babel/env"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/preset-env": "^7.2.3"
+  }
+}

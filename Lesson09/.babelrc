@@ -1,0 +1,9 @@
+{
+    "plugins": [
+        "@babel/plugin-transform-duplicate-keys",
+        "@babel/plugin-transform-for-of",
+        "@babel/plugin-transform-function-name",
+        "@babel/plugin-transform-instanceof",
+        "@babel/plugin-transform-literals"
+    ]
+}

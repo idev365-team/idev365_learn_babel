@@ -1,0 +1,18 @@
+{
+  "name": "Lesson09",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "build":"babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-duplicate-keys": "^7.2.0",
+    "@babel/plugin-transform-for-of": "^7.2.0",
+    "@babel/plugin-transform-function-name": "^7.2.0",
+    "@babel/plugin-transform-instanceof": "^7.2.0",
+    "@babel/plugin-transform-literals": "^7.2.0"
+  }
+}

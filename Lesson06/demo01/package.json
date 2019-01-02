@@ -1,0 +1,20 @@
+{
+  "name": "demo01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build":"babel src -d dist",
+    "build:test2": "babel --plugins transform-property-literals src -d dist",
+    "build:test3": "babel --plugins  @babel/plugin-transform-reserved-words src -d dist",
+    "build:test4": "babel --plugins  @babel/plugin-transform-property-mutators src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-property-mutators": "^7.2.0",
+    "@babel/plugin-transform-reserved-words": "^7.2.0",
+    "babel-plugin-transform-member-expression-literals": "^6.9.4",
+    "babel-plugin-transform-property-literals": "^6.9.4"
+  }
+}

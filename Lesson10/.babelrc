@@ -1,0 +1,13 @@
+{
+    "plugins": [
+        "@babel/plugin-transform-new-target",
+        "@babel/plugin-transform-object-super",
+        "@babel/plugin-transform-parameters",
+        "@babel/plugin-transform-shorthand-properties",
+        "@babel/plugin-transform-spread",
+        "@babel/plugin-transform-sticky-regex",
+        "@babel/plugin-transform-template-literals",
+        "@babel/plugin-transform-typeof-symbol",
+        "@babel/plugin-transform-unicode-regex",
+    ]
+}

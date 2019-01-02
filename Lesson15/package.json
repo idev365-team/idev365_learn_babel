@@ -1,0 +1,26 @@
+{
+  "name": "Lesson15",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "build:test-react-constant-elements":"babel src/test-react-constant-elements.js -d dist --plugins  @babel/plugin-transform-react-constant-elements",
+    "build:test-react-display-name":"babel src/test-react-display-name.js -d dist --plugins  @babel/plugin-transform-react-display-name",
+    "build:test-react-inline-elements":"babel src/test-react-inline-elements.js -d dist --plugins  @babel/plugin-transform-react-inline-elements",
+    "build:test-react-jsx":"babel src/test-react-jsx.js -d dist",
+    "build:test-react-compat":"babel src/test-react-compat.js -d dist --plugins @babel/plugin-transform-react-jsx-compat",
+    "build:test-react-self":"babel src/test-react-self.js -d dist --plugins @babel/plugin-transform-react-jsx-self",
+    "build:test-react-source":"babel src/test-react-source.js -d dist --plugins @babel/plugin-transform-react-jsx-source"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-react-constant-elements": "^7.2.0",
+    "@babel/plugin-transform-react-display-name": "^7.2.0",
+    "@babel/plugin-transform-react-inline-elements": "^7.2.0",
+    "@babel/plugin-transform-react-jsx": "^7.2.0",
+    "@babel/plugin-transform-react-jsx-compat": "^7.2.0",
+    "@babel/plugin-transform-react-jsx-self": "^7.2.0",
+    "@babel/plugin-transform-react-jsx-source": "^7.2.0"
+  }
+}

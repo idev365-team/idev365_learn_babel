@@ -1,0 +1,9 @@
+{
+    "plugins":[
+        "babel-plugin-transform-member-expression-literals",
+        "transform-property-literals",
+        "@babel/plugin-transform-reserved-words",
+        "@babel/plugin-transform-property-mutators",
+        
+    ]
+}

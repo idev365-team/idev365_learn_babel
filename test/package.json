@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel --inspect-brk src/test.js --plugins ./babel-my-plugin.js ",
+    "debug":"node --inspect-brk app.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/types": "^7.2.2"
+  }
+}

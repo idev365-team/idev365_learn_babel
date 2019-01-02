@@ -1,0 +1,15 @@
+{
+  "name": "demo01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "build":"babel src -d dist --presets=@babel/env",
+    "build:auto":"babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
+}

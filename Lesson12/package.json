@@ -1,0 +1,21 @@
+{
+  "name": "Lesson12",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "build":"npm run build:amd && npm run build:commonjs && npm run build:systemjs && npm run build:umd",
+    "build:amd":"babel src/test.js --out-file dist/test-amd.js --plugins @babel/plugin-transform-modules-amd",
+    "build:commonjs":"babel src/test.js --out-file dist/test-commonjs.js --plugins @babel/plugin-transform-modules-commonjs",
+    "build:systemjs":"babel src/test.js --out-file dist/test-systemjs.js --plugins @babel/plugin-transform-modules-systemjs",
+    "build:umd":"babel src/test.js --out-file dist/test-umd.js --plugins @babel/plugin-transform-modules-umd"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-modules-amd": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "@babel/plugin-transform-modules-systemjs": "^7.2.0",
+    "@babel/plugin-transform-modules-umd": "^7.2.0"
+  }
+}
